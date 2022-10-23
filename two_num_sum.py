@@ -1,6 +1,3 @@
-from turtle import window_height
-
-
 def two_number_sum(array, target_sum):
     """
     We are given an array of integers.
