@@ -1,3 +1,6 @@
+from turtle import window_height
+
+
 def two_number_sum(array, target_sum):
     """
     We are given an array of integers.
@@ -28,7 +31,26 @@ def two_number_sum(array, target_sum):
         eg: from 11 to 8
     
     """
-    pass
     
-    
-    
+    # pointers
+    left = 0
+    right = len(array) - 1
+
+    # This solution only works for sorted arrays:
+    array.sort()  # Sorting in place
+
+    while left < right:
+        
+        left_number = array[left]
+        right_number = array[right]
+
+        result_sum = left_number + right_number
+
+        if result_sum == target_sum:
+            return [left_number, right_number]
+        elif result_sum > target_sum:
+            right -= 1
+        else:
+            # result_sum < target_sum
+            left += 1
+    return []
