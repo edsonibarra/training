@@ -1,4 +1,4 @@
-def isPalindrome(string: str) -> bool:
+def is_palindrome(string: str) -> bool:
 
     cleaned_string = ""
     for c in string:
