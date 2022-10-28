@@ -1,5 +1,5 @@
 import pytest
-from valid_subsequence import valid_subsequence
+from src.valid_subsequence import valid_subsequence
 
 
 @pytest.mark.parametrize(
