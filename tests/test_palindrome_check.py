@@ -1,5 +1,5 @@
 import pytest
-from palindrome_check import is_palindrome
+from src.palindrome_check import is_palindrome
 
 
 @pytest.mark.parametrize(
