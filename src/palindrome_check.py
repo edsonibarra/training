@@ -1,3 +1,5 @@
+# O(n) Time
+# O(n) Space where n is the length of string
 def is_palindrome(string: str) -> bool:
 
     cleaned_string = ""
