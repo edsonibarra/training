@@ -1,5 +1,5 @@
 import pytest
-from validSubsequence import validSubsequence
+from valid_subsequence import valid_subsequence
 
 
 @pytest.mark.parametrize(
@@ -16,4 +16,4 @@ from validSubsequence import validSubsequence
 )
 def test_valid_subsequence(array, subsequence, expected):
 
-    assert validSubsequence(array, subsequence) == expected
+    assert valid_subsequence(array, subsequence) == expected
