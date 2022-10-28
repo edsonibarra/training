@@ -1,3 +1,3 @@
 def nonConstructibleChange(coins):
-    if not conins:
+    if not coins:
         return 1
