@@ -1,7 +1,7 @@
 # O(n) Time
 # O(1) Space
 
-def firstNonRepeatingCharacter(string):
+def first_non_repeating_char(string):
 
     chars = {}
     for c in string:

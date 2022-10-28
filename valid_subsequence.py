@@ -1,4 +1,4 @@
-def validSubsequence(array, sequence):
+def valid_subsequence(array, sequence):
     pointerArray = 0
     pointerSquence = 0
     completedSuccess = len(sequence)
