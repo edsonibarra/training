@@ -9,4 +9,5 @@ def LC_28(haystack, needle):
             substring = haystack[i:i+needle_len]
             if substring == needle:
                 return i
+            i+=1
     return -1
