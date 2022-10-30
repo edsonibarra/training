@@ -6,8 +6,8 @@ def LC_28(haystack, needle):
         needle_len = len(needle)
         i = 0
         while i < len(haystack):
-            substring = haystack[i:i+needle_len]
+            substring = haystack[i : i + needle_len]
             if substring == needle:
                 return i
-            i+=1
+            i += 1
     return -1
