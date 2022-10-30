@@ -9,10 +9,12 @@ def is_palindrome(string: str) -> bool:
 
     return cleaned_string == cleaned_string[::-1]
 
+
 # Even better solution for optimized memory
 
 # O(n) Time
 # O(1) Space
+
 
 def is_palindrome_optimized_memory(string):
 
@@ -29,7 +31,6 @@ def is_palindrome_optimized_memory(string):
 
         while not string[j].isalnum() and i < j:
             j -= 1
-
 
         if string[i].lower() != string[j].lower():
             return False

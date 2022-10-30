@@ -1,6 +1,7 @@
 # O(n) Time
 # O(1) Space
 
+
 def first_non_repeating_char(string):
 
     chars = {}
@@ -11,4 +12,4 @@ def first_non_repeating_char(string):
         if chars[c] == 1:
             return index
 
-    return -1 
+    return -1

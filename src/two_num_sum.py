@@ -2,7 +2,7 @@ def two_number_sum(array, target_sum):
     """
     We are given an array of integers.
     We need to find wich numbers from array sum up to target.
-    
+
     Explanation:
     If we sort the array and use two pointer to each side if the array
     left and right.
@@ -19,16 +19,16 @@ def two_number_sum(array, target_sum):
                     [-4, -1, 1, 3, 5, 6, 8, 11]
                     <------------------------->
                     lower values----greater values
-    
+
     result < target:
         move the left pointer to a greater value than the current value
         eg: from -4 to -1
     result > target:
         move the right pointer to a lower value than the current value
         eg: from 11 to 8
-    
+
     """
-    
+
     # pointers
     left = 0
     right = len(array) - 1
@@ -37,7 +37,7 @@ def two_number_sum(array, target_sum):
     array.sort()  # Sorting in place
 
     while left < right:
-        
+
         left_number = array[left]
         right_number = array[right]
 
