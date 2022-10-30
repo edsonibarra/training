@@ -1,4 +1,5 @@
 import pytest
+
 from src.palindrome_check import is_palindrome
 
 

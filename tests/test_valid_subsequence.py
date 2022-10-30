@@ -1,4 +1,5 @@
 import pytest
+
 from src.valid_subsequence import valid_subsequence
 
 
