@@ -13,6 +13,3 @@ def group_anagrams(strs):
         else:
             anagrams[sorted_word] = [word]
     return list(anagrams.values())
-
-
-print(group_anagrams(["eat","tea","tan","ate","nat","bat"]))
