@@ -2,18 +2,18 @@
 # solution
 
 # def percentage_of_letter_in_string(s, letter):
-    
+
 #     total = len(s)
-    
+
 #     count_letter_in_s = 0
 #     for c in s:
 #         if c == letter:
 #             count_letter_in_s += 1
-    
+
 #     p = int(str(count_letter_in_s/total * 100).split(".")[0])
 #     print(p)
-    
-    
+
+
 # percentage_of_letter_in_string('foobar','o')
 
 

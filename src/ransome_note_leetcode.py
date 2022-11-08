@@ -1,9 +1,9 @@
 # def ransome_note(ransome_note, magazine):
-    
+
 #     lrn = get_dict(magazine)
-    
+
 #     new_lrn = substract_values(lrn, ransome_note)
-    
+
 #     for k,v in new_lrn.items():
 #         if v <= 0:
 #             return False
@@ -30,7 +30,7 @@
 #             print(f"Substracting value of c, current {lrn[c]}")
 #             lrn[c] -= 1
 #             print(f"Substracted value, result of c", lrn[c])
-            
+
 #     print("Finishing process substract_values")
 #     return lrn
 # print(ransome_note("aa","aab"))
@@ -57,4 +57,3 @@ def ransome_note(ransome_note_str, magazine):
     if index_ransome_note == index_magazine:
         return True
     return False
-    
