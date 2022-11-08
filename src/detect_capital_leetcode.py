@@ -10,4 +10,3 @@ def detect_capital(word):
     elif word and word[0].isupper():
         return word[1:].islower()
     return False
-    
