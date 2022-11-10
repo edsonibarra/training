@@ -5,8 +5,8 @@ def day_of_day(date):
     day = int(date_list[2])
 
     leap = False
-    if year % 4 == 0:
-        pass
+    if year % 4 == 0 and year % 100 == 0 and year % 400 == 0:
+        leap = True
 
     months = [
         (1, 31),
