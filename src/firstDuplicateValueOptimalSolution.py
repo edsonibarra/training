@@ -1,0 +1,2 @@
+def firstDuplicateValueOptimalSolution(array):
+    pass
