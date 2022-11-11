@@ -1,5 +1,5 @@
 def firstDuplicateValueOptimalSolution(array):
-    """_summary_
+    """Optimal Solution
 
     Args:
         array (_type_): _description_
