@@ -1,7 +1,3 @@
 def firstDuplicateValueOptimalSolution(array):
-    """Optimal Solution
-
-    Args:
-        array (_type_): _description_
-    """
+    """Optimal Solution"""
     pass
