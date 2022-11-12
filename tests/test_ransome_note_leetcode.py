@@ -1,6 +1,6 @@
 import pytest
 
-from src.ransome_note_leetcode import ransome_note
+from src.challenges.ransome_note_leetcode import ransome_note
 
 
 @pytest.mark.parametrize(

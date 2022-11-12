@@ -1,6 +1,6 @@
 import pytest
 
-from src.unique_email_leetcode import unique_email
+from src.challenges.unique_email_leetcode import unique_email
 
 
 @pytest.mark.parametrize(

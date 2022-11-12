@@ -1,6 +1,6 @@
 import pytest
 
-from src.palindrome_check import is_palindrome
+from src.challenges.palindrome_check import is_palindrome
 
 
 @pytest.mark.parametrize(
