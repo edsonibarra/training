@@ -1,6 +1,6 @@
 import pytest
 
-from src.detect_capital_leetcode import detect_capital
+from src.challenges.detect_capital_leetcode import detect_capital
 
 
 @pytest.mark.parametrize(
