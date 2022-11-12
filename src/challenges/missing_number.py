@@ -16,7 +16,11 @@ def missing_number(nums: List[int]) -> int:
     nums = [3, 0, 1]
 
     Sort the list = [0, 1, 3]
+
     Genereate another list "copy" in range len of nums + 1.
+
+    copy = [0, 1, 2, 3]
+
     Create two pointer for each list respectively.
 
     While the numbers are the same in both list
@@ -25,6 +29,24 @@ def missing_number(nums: List[int]) -> int:
     return copy[at index nums].
     If the numbers are not the same while iterating over the lists
     then return the number in the copy list.
+    
+    First Iteration:
+    nums  = [0, 1, 3]
+             *   
+    copy  = [0, 1, 2, 3]
+             *
+             
+    Second Iteration:
+    nums  = [0, 1, 3]
+                *   
+    copy  = [0, 1, 2, 3]
+                *
+    Third Iteration:
+    nums  = [0, 1, 3]
+                   *   
+    copy  = [0, 1, 2, 3]
+                   *   <- Return 2
+    
     """
 
     nums.sort()
