@@ -16,6 +16,8 @@ def find_all_good_indices(nums, k):
                         non_inc = False
                         break
                     idx += 1
+            #TODO: corner case len == 1
+            
             non_dec = True
             if next_items and len(next_items) > 1:
                 jdx = 1
@@ -27,8 +29,7 @@ def find_all_good_indices(nums, k):
             if non_dec and non_inc:
                 ans.append(i)
     return ans
-                
-                    
-                
 
-print(find_all_good_indices(nums = [2,1,1,1,3,4,1], k = 2))
+
+# print(find_all_good_indices(nums = [2,1,1,1,3,4,1], k = 2))
+print(find_all_good_indices(nums = [478184,863008,716977,921182,182844,350527,541165,881224], k = 1))
