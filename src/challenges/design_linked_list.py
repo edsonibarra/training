@@ -51,7 +51,25 @@ class MyLinkedList:
         
 
     def deleteAtIndex(self, index: int) -> None:
+        if self.head is None:
+            return
+        prev = None
+        cur = self.head
+        count = 0
+        if index == count:
+            self.head = cur.next
+            cur = None
+            return
+        
+        while cur and count != index:
+            prev = cur
+            cur = cur.nex
 
+        if cur:
+            prev.next = cur.next
+            cur = None
+            return
+        
 
 
 # Your MyLinkedList object will be instantiated and called as such:
