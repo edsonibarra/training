@@ -8,6 +8,7 @@ class MyLinkedList:
 
     def __init__(self):
         self.head = None
+        self.len = 0
 
     def get(self, index: int) -> int:
         count = 0
@@ -22,6 +23,7 @@ class MyLinkedList:
             return cur.val
         
     def addAtHead(self, val: int) -> None:
+        
         new_node = Node(val)
         if self.head is None:
             self.head = new_node
@@ -29,6 +31,7 @@ class MyLinkedList:
         cur = self.head
         new_node.next = cur
         self.head = new_node
+        self.len += 1
 
     def addAtTail(self, val: int) -> None:
         new_node = Node(val)
@@ -40,8 +43,11 @@ class MyLinkedList:
         while cur.next:
             cur = cur.next
         cur.next = new_node
+        self.len += 1
 
     def addAtIndex(self, index: int, val: int) -> None:
+        if index > self.len - 1:
+            return
         
 
     def deleteAtIndex(self, index: int) -> None:
